@@ -1,10 +1,27 @@
  <!-- FOOTER -->
-  <div class="container">
-    <footer>
-      <div class="row">
-        <div class="col-lg-12">
-          Copyright &copy; Company 2013
-        </div>
+  <div id="footer">
+    <footer class="navbar-inverse">
+      <div class="container">
+        <ul class="nav navbar-nav">
+          <li> 
+            <%= link_to "Contact Us", "#" %>  
+          </li>
+          <li>
+            <%= link_to "Phi Kappa Psi", "http://www.phikappapsi.com", :target => "_blank" %>
+          </li>
+          <li>
+            <%= link_to "Phi Psi Foundation", "#", :target => "_blank" %>
+          </li>
+          <li>
+            <%= link_to image_tag("facebook.png", class: "img-responsive float-right"), "", :target => "_blank"%>
+          </li>
+          <li>
+            <%= link_to image_tag("twitter.png", class: "img-responsive float-right"), "#", :target => "_blank"%>
+          </li>
+          <li>
+            <%= link_to image_tag("linkedin.png", class: "img-responsive float-right"), "http://www.linkedin.com/groups?home=&gid=4452404&trk=anet_ug_hm", :target => "_blank"%>
+          </li>
+        </ul>
       </div>
     </footer>
   </div>

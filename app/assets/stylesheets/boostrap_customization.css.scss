@@ -2,8 +2,6 @@
 
 //define override variables here
 
-
-
 body {
 	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
@@ -38,10 +36,6 @@ body {
 	margin: 30px 0;
 }
 
-footer {
-	margin: 50px 0;
-}
-
 @media (max-width: 768px) {
 
 .section-heading {
@@ -55,9 +49,34 @@ footer {
 
 }
 
-
-@import 'bootstrap';
-
 .left {
 	text-align: left;
 }
+
+.center {
+	text-align: center;
+}
+
+.align-bottom {
+	vertical-align: bottom;
+}
+
+#footer {
+	background: #222222;
+	height: 70px;
+	color: #999999;
+	position: relative;
+}
+
+.nav-footer {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.float-right{
+	display: inline;
+}
+
+@import 'bootstrap';
+
